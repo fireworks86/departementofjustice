@@ -1,0 +1,29 @@
+body {
+    text-size-adjust: 500px;
+    text-align: center;
+        background-image: url("https://mrvian.com/wp-content/uploads/2023/06/department-of-justice-logo.png"); 
+        }
+
+h1 {
+color: #ffffff;
+        }
+
+        .button {
+            margin-top: 300px;
+            display: inline-block; /* Permet de donner des dimensions au bouton */
+            padding: 10px 20px; /* Ajoute de l'espace à l'intérieur du bouton */
+            font-size: 16px; /* Taille de la police */
+            color: rgb(68, 60, 60); /* Couleur du texte */
+            background-color: #ffffff; /* Couleur de fond */
+            border: none; 
+            text-shadow: 50px;
+            text-decoration: burlywood;
+            border-radius: 5px; /
+            text-decoration: none; 
+            text-align: center; 
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: hsl(0, 0%, 100%); 
+        }

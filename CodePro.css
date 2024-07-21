@@ -1,0 +1,19 @@
+.button {
+   
+    display: inline-block; /* Permet de donner des dimensions au bouton */
+    padding: 10px 20px; /* Ajoute de l'espace à l'intérieur du bouton */
+    font-size: 16px; /* Taille de la police */
+    color: rgb(68, 60, 60); /* Couleur du texte */
+    background-color: #120581; /* Couleur de fond */
+    border: none; /* Supprime la bordure */
+    text-shadow: 50px;
+    text-decoration: burlywood;
+    border-radius: 5px; /* Arrondit les coins */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    text-align: center; /* Centre le texte */
+    transition: background-color 0.3s; /* Ajoute une transition pour l'effet au survol */
+}
+
+.button:hover {
+    background-color: hsl(0, 0%, 100%); /* Change la couleur de fond au survol */
+}
